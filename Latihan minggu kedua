@@ -1,0 +1,29 @@
+# Identifikasi masalah
+# Input: harga per kg(hrg), berat pembelian(brt)
+# Output: harga yang dibayar pembeli(byr)
+
+# Algoritma
+def hitung_harga_mangga(hrg, brt):
+  """
+  Menghitung harga mangga yang harus dibayar pembeli
+
+  Args:
+    hrg: harga mangga per kilogram
+    brt: berat mangga yang dibeli
+
+  Returns:
+    Harga mangga yang harus dibayar pembeli
+  """
+
+  # Hitung harga mangga
+  byr = hrg * brt
+
+  return byr
+
+# Input
+hrg = 20000
+brt = float(input("Masukkan berat mangga (kg): "))
+
+# Output
+byr = hitung_harga_mangga(hrg, brt)
+print(f"Harga mangga yang harus dibayar adalah Rp {byr}")
