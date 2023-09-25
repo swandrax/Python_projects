@@ -1,0 +1,19 @@
+# Definisikan variabel
+uang_ibu = 200000
+harga_telur = 26000
+ongkos_angkot = 3500
+
+# Hitung biaya transportasi
+biaya_transportasi = ongkos_angkot * 2
+
+# Hitung biaya telur
+biaya_telur = harga_telur * 5
+
+# Hitung total biaya
+total_biaya = biaya_transportasi + biaya_telur
+
+# Hitung sisa uang
+sisa_uang = uang_ibu - total_biaya
+
+# Tampilkan sisa uang
+print(f"Sisa uang ibu adalah Rp {sisa_uang}")
